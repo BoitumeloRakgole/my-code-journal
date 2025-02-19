@@ -1,0 +1,24 @@
+Today, I successfully completed the Terminal Scavenger Hunt challenge, an experience that tested both my problem-solving skills and my paitence.
+It was a journey filled with commands, dictories, hidden files, and the eventual reward od seeing the message: "I AM A TERMINSL MASTER."
+
+The challenge began with navigating through a series of dictories using the terminal.
+I had to familirize myself with basic commands such as as cd to change dictories, ls to list files, and Get-Location to confirm my current directory, in PowerShell.
+Transitioning from Ubuntu commands to PowerShell was a unique challenge on its own, requiring me to adapt and learn new syntax.
+
+One of the more difficult moments came when I encountered a zip file named final_treausure.zip within the .final_challenge directory. 
+Extracting it was a bit tricky because I was unsure of the correct PowerShell command.
+However, I discovered that Expand-Archive is the equivelant od unzip in Ubuntu. 
+Using the command Expand-Archive -Path final -final_treausure.zip -DestinationPath . successfully extracted the contents.
+
+Upon extraction, I found victory_message.txt.
+Opening this file revealed the triumphant message that validated all my efforts: "I AM A TERMINAL MASTER."
+It was a fulfilling moment, knowing that all the navigation, commands, and problem-solving led to this success.
+
+I also encountered a minor confusin when i attempted to open final_clue.txt, only to realize that the file did not exist. 
+It was a good reminder that attention to detail and proper verification are key when working wit the command line.
+
+The experience taught me the importance of persistance, resourcefulness, and the value of understanding the tools at my disposal.
+It streng my familiarity with terminal navigation, file management, and the differences between Ubuntu and PowerShell environments.
+
+Overall, completing the Terminal Scavenger Hunt has boosted my confidence in using the Terminal and PowerShell.
+I am proud to call myself a Terminal Master.
